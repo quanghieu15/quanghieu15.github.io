@@ -1,0 +1,102 @@
+.header{
+    width:96%;
+    height:30px;
+    background: pink;
+    border: 3px  solid  #BDBDBD;
+}
+.left1{
+    width:51%;
+    border: 3px solid #BDBDBD ;
+    background: #00FFFF;
+    height:130px;
+}
+.left2{
+    width:23%;
+    height:60px;
+    border: 3px  solid #BDBDBD;
+    background: red;
+}
+.left3{
+    width:23%;
+    height:65px;
+    border: 3px  solid #BDBDBD;
+    background: orange;
+}
+.left4{
+    width:28%;
+    height:130px;
+    border: 3px  solid #BDBDBD;
+    background: violet;
+    margin-left: 310px;
+    margin-top: -137px;
+}
+.right1{
+    width:35%;
+    background:#0404B4;
+    height:50px;
+    border: 3px  solid #BDBDBD;
+    margin-top:-275px;
+    float:right;
+    margin-right:177px;
+}
+.right2{
+    width:10%;
+    background: darkgreen;
+    height:50px;
+    border: 3px  solid #BDBDBD;
+    margin-top:-275px;
+    float:right;
+    margin-right: 48px; 
+}
+.right3{
+    width:44.5%;
+    background: yellow;
+    height:40px;
+    border: 3px  solid #BDBDBD;   
+    float:right;
+    margin-right:48px; 
+    margin-top: -220px;
+}
+.right4{
+    width:15%;
+    background: royalblue;
+    height:130px;
+    border: 3px  solid #BDBDBD;  
+    float:right;
+    margin-right: 450px;
+    margin-top: -175px;
+}
+.right5{
+    width:15%;
+    background: red;
+    height:130px;
+    border: 3px  solid #BDBDBD;  
+    float:right;
+    margin-right: 250px;
+    margin-top: -175px
+}
+.right6{
+    width: 14.6%;
+    background: royalblue;
+    height:130px;
+    border: 3px  solid #BDBDBD; 
+    float:right;
+    margin-right:47px;
+    margin-top: -175px;
+}
+.right7{
+    width:45%;
+    background: sienna;
+    height:34px;
+    border: 3px  solid #BDBDBD;
+    float: right; 
+    margin-right:46.5px;
+    margin-top: -40px;;
+}
+.footer{
+    width:96.1%;
+    background: black;
+    float:left;
+    height:30px;
+    border: 3px  solid #BDBDBD;
+}
