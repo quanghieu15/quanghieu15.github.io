@@ -1,0 +1,113 @@
+.menu li{
+    display: inline-block;
+    background: black; 
+    height:28px;
+    color:white;  
+    width: 80px;
+    padding: 8px ;
+    text-align: center;
+}
+.menu{
+    background: black;
+    display: flex;
+    padding:0px;  
+}
+.menu li:hover{
+    background: red;
+    cursor: pointer;
+}
+.menu1{
+    position: relative;
+}
+.menu2{
+    display: none;
+    position: absolute;
+    left:0px;
+    top:43px; 
+    padding:0px;
+}
+.menu1:hover .menu2{
+    display:block;
+}
+.menu2 li{
+    display: block;
+    background: #E8E8E8;
+    color:black;
+    text-align: left;
+    width:120px;
+}
+.menu2 li:hover{
+    background: #CFCFCF;
+}
+.menu3{
+    position: relative;
+}
+.menu4{
+    display:none;
+    position: absolute;
+    left:0px;
+    top:43px; 
+    padding:0px;
+}
+.menu3:hover .menu4{
+    display:block;
+}
+.menu4 li{
+    display: block;
+    background: #E8E8E8;
+    color:black;
+    text-align: left;
+    width:120px;
+}
+.menu4:hover{
+    background: #CFCFCF;
+}
+.menu5{
+    position: relative;
+}
+.menu6{
+    display: none;
+    position: absolute;
+    top:43px;
+    left:0px;
+    padding:0px;
+}
+.menu5:hover .menu6{
+    display: block;
+}
+.menu6 li{
+    display: block;
+    text-align: left;
+    width:120px;
+    background: #E8E8E8;
+    color:black;
+}
+.menu6:hover{
+    background: #CFCFCF;
+}
+.menu7{
+    position: relative;
+}
+.menu8{
+    display: none;
+    position: absolute;
+    top:0px;
+    left:130px;
+    padding:0px;
+}
+.menu7:hover .menu8{
+    display: block;
+}
+.menu8 li{
+    display: block;
+    text-align: left;
+    width:120px;
+    background: #E8E8E8;
+    color:black
+}
+.menu8:hover{
+    background: #CFCFCF;
+}
+
+
+
