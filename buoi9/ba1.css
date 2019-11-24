@@ -1,0 +1,114 @@
+.all {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+.right1 {
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    margin-left: 0%;
+    margin-top: 8%;
+}
+
+.button {
+    margin-left: 40%;
+    width: 20%;
+    height: 10%;
+}
+
+.button:hover {
+    background: grey;
+}
+
+.right2 {
+    position: absolute;
+    width: 60%;
+    margin-top: 50%;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row1 {
+    width: 50%;
+}
+
+.row2 {
+    width: 45%;
+    padding: 0 20px;
+}
+
+.right5 {
+    background: gray;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 20px 20px;
+}
+
+.right6 {
+    padding: 3px 10px;
+    color: black;
+    background: rgb(206, 201, 201);
+    margin-top: 30px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.right6:hover {
+    background: rgb(145, 143, 143);
+}
+
+.Basic {
+    width: 45%;
+    padding: 0 10px;
+}
+
+.basic1 {
+    font-size: 20px;
+    color: black;
+    background: #D8D8D8;
+    padding: 10px 120px;
+    text-align: center;
+}
+
+.basic1 :hover {
+    background: black;
+    color: white;
+}
+
+.Basic:hover {}
+
+.Pro {
+    width: 45%;
+    padding: 0 10px;
+}
+
+.input {
+    padding: 15px 15px;
+}
+
+.footer {
+    background: grey;
+    height: 80px;
+    width: 100%;
+    padding: 140px 230px;
+}
+
+.footer i:hover {
+    color: #BDBDBD;
+}
