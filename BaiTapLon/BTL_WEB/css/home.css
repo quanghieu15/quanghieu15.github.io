@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* navbar */
+.header .hambergur {
+  display: none;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  padding: 0px 30px;
+  background: white;
+  color: black;
+  box-shadow: 0 4px 10px 0 rgba(7, 7, 7, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0;
+  margin-right: 5%;
+}
+
+.header i {
+  margin-left: 10px;
+}
+
+.header li a {
+  color: black;
+  padding: 20px 10px;
+}
+
+.header li a:hover {
+  color: grey;
+}
+
+.header li .current {
+  color: grey;
+  text-decoration: underline;
+}
+
+.header li:hover {
+  color: grey;
+}
+
+/* showcase */
+#showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  padding: 0 20%;
+}
+
+#showcase h1 {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+#showcase p {
+  font-size: 22px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#showcase .horizon {
+  width: 15%;
+  border-bottom: 1px dotted grey;
+}
+
+.content {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row1 {
+  width: 75%;
+  padding: 80px 0px;
+  margin-left: -25px;
+}
+
+.row2 {
+  width: 60%;
+  padding: 80px 0px;
+  height: 515px;
+  margin-left: 40%;
+  margin-top: -368px;
+}
+
+.hover:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.row3 {
+  width: 50%;
+  padding: 80px 0px;
+  margin-left: -25px;
+}
+
+.row4 {
+  width: 110%;
+  padding: 80px 0px;
+  margin-top: -550px;
+  height: 660px;
+}
+
+.footer1 {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.footer1.1:hover {
+  background: #5E610B;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #FAFAFA;
+  padding: 80px 50px;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.footer2 {
+}
+
+.footer3 {
+  cursor: pointer;
+}
+
+.footer3 p:hover {
+  color: #886A08;
+}
+
+.footer4 i{
+  color: #333;
+}
+
+/* Contact */
+#showcase1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase1 {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  height: 100vh;
+}
+
+#showcase1::before {
+  content: '';
+  background: url('../img/trent-szmolnik-1182251-unsplash-1920x1200.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: -1;
+}
+
+#contact .content {
+  padding: 50px 250px;
+  color: #444;
+}
+
+#contact .content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: grey 1px dotted;
+  padding: 10px 0;
+  margin: 40px 0;
+}
+
+#contact .content p {
+  font-size: 20px;
+  line-height: 140%;
+}
+
+#contact .content .find-us {
+  display: flex;
+  width: 100%;
+}
+
+#contact .content .find-us p {
+  flex: 1;
+}
+
+/* form */
+#contact .form-wrap label {
+  display: block;
+  font-weight: bold;
+}
+
+#contact .form-wrap {
+  margin-bottom: 15px;
+}
+
+#contact .form-wrap input {
+  width: 50%;
+  padding: 10px 15px;
+  outline: none;
+  border: 0.1px dotted rgba(7, 7, 7, 0.2);
+}
+
+#contact .form-wrap textarea {
+  border: 0.1px dotted rgba(7, 7, 7, 0.2);
+  width: 100%;
+  height: 180px;
+}
+
+#contact .btn {
+  display: inline-block;
+  border: none;
+  padding: 15px 40px;
+  color: #fff;
+  background: #95846A;
+  font-weight: bold;
+}
+
+#contact .btn:hover {
+  background: rgb(127, 115, 96);
+}
